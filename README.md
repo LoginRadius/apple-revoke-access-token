@@ -2,9 +2,11 @@
 This repository provides details on how to invalidate the apple access token based on LoginRadius AccountDeletion webhook event response https://www.loginradius.com/docs/integrations/webhook/.
 
 ## Description
-This respository provides an (POST) API endpoint which accepts the LoginRadius AccountDeletion webhook event response.
+This respository provides a (POST) API endpoint which accepts the LoginRadius AccountDeletion webhook event response.
 
-For the Sample AccountDeletion webhook event response please see https://www.loginradius.com/docs/integrations/webhooks/samples/#deleteaccount9
+For the Sample AccountDeletion webhook event response please see: https://www.loginradius.com/docs/integrations/webhooks/samples/#deleteaccount9
+
+To get AccountDeletion webhook event response on your URL, please configured it from the LoginRadius Admin Console: https://www.loginradius.com/docs/api/v2/integrations/webhooks/overview/#configurewebhook7 
 
 ## Installation
 Run this command to install the required dependency.
