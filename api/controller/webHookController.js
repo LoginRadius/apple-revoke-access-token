@@ -14,12 +14,12 @@ var webhookPayload = (req, res, next) => {
         }
         if (!appleAccessToken) {
             let errorResponse = {
-                message: 'Access Token is required',
+                message: 'Access Token is empty',
                 description: 'Apple Access token not found in the user webhook response',
-                statusCode: 403
+                statusCode: 200
             };
 
-            res.status(403).json(errorResponse)
+            res.status(200).json(errorResponse)
         } else {
 
 
